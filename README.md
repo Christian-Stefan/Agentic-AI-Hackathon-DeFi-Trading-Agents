@@ -1,7 +1,5 @@
 # Autonomous Music Agent (MCP + Arc x402) Handover Guide
 
-Here is the expanded, ultimate handover document. I have woven in all the conceptual explanations we discussed (like the User vs. Author wallets and how the cryptography works) so you aren't just running code, but actually understand the architecture you are taking over.
-
 ## 📌 Overview
 This project is an autonomous AI agent powered by Google Gemini. It uses the **Model Context Protocol (MCP)** to search a local custom music database, retrieve a song and the artist's public wallet address, and then automatically trigger an on-chain micro-payment (nanopayment) using **Circle's Arc Testnet** and the **x402 protocol**.
 
